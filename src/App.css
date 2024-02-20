@@ -1,0 +1,43 @@
+.container {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+}
+
+.save-button {
+  display: inline-block;
+  padding: 5px 30px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: initial;
+  border: 2px solid black;
+  box-shadow: 4px 4px 0px 1px black;
+}
+
+.title-container {
+  flex: 1;
+}
+
+.editor-container {
+  border: 3px solid rgba(150, 189, 242, 0.5);
+  padding: 10px;
+  height: 80vh;
+  overflow-y: auto;
+}
